@@ -1,0 +1,130 @@
+.cat-active .selected {
+    right: 0% !important;
+}
+
+.nav-item {
+    overflow: hidden;
+}
+
+.selected {
+    /* border-bottom: 1px solid rgb(247, 119, 0); */
+    width: 100%;
+    height: 1px;
+    background-color: rgb(247, 119, 0);
+    position: relative;
+    right: 100%;
+    transition: all 0.5s;
+}
+
+.nav-item:hover .selected,
+.filter-item:hover .selected {
+    right: 0%;
+}
+
+.nav-item {
+    transition: all 0.1s;
+}
+
+.nav-item:hover {
+    transform: scale(1.05) !important;
+    color: rgb(247, 119, 0) !important;
+}
+
+.card .badge {
+    top: 0 !important;
+    right: 0 !important;
+}
+
+
+.btn-flip {
+    opacity: 1;
+    outline: 0;
+    color: #fff;
+    /* line-height: 40px; */
+    position: relative;
+    text-align: center;
+    /* letter-spacing: 1px; */
+    display: inline-block;
+    text-decoration: none;
+    /* font-family: 'Open Sans'; */
+    /* text-transform: uppercase; */
+}
+
+
+.btn-flip:hover:after {
+    opacity: 1;
+    transform: translateY(0) rotateX(0);
+}
+
+.btn-flip:hover:before {
+    opacity: 0;
+    transform: translateY(50%) rotateX(90deg);
+}
+
+.btn-flip:after {
+    top: 0;
+    left: 0;
+    opacity: 0;
+    width: 100%;
+    color: #ffffff;
+    display: block;
+    transition: 0.5s;
+    position: absolute;
+    background: RGB(11, 94, 215);
+    content: attr(data-back);
+    transform: translateY(-50%) rotateX(90deg);
+}
+
+.btn-flip:before {
+    top: 0;
+    left: 0;
+    opacity: 1;
+    color: #ffffff;
+    display: block;
+    /* padding: 0 30px;
+    line-height: 40px; */
+    transition: 1s;
+    position: relative;
+    /* background: rgba(21, 115, 71, 1); */
+    content: attr(data-front);
+    transform: translateY(0) rotateX(0);
+}
+
+
+
+
+main .card {
+    transition: transform 0.7s;
+    overflow: hidden;
+}
+
+main .card:hover {
+    transform: scale(1.05);
+    box-shadow: 1px 1px 10px 1px black !important;
+}
+
+
+@media (min-width: 1200px) {
+    main .col-lg-3 .card {
+        max-height: 28rem !important;
+    }
+
+    main .col-lg-3 .card img {
+        min-height: 15rem !important;
+        max-height: 15rem !important;
+    }
+}
+
+.layer {
+    background-color: rgba(0, 0, 0, 0.9);
+    color: white;
+    top: 150% !important;
+    transition: all 0.6s;
+    overflow: auto;
+    height: auto;
+}
+
+.show-desc:hover .layer{
+    
+    top: 0% !important;
+}

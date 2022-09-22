@@ -1,0 +1,31 @@
+.panel {
+    border: 2px solid rgb(215, 211, 224);
+    cursor: pointer;
+    transition: all 0.2s ease-in-out, transform 0.5s;
+    width: 20rem;
+    height: 20rem;
+}
+
+.panel h2 {
+    text-decoration: none !important;
+    color: white !important;
+}
+
+.panel:hover {
+    box-shadow: 1px 1px 30px 1px black !important;
+}
+
+.panel:first-child:hover {
+    background-color: rgb(19, 63, 17);
+    transform: scale(1.1) rotate(-5deg);
+}
+
+.panel:nth-child(2):hover {
+    transform: scale(1.1) rotate(5deg);
+    background-color: rgb(105, 70, 31);
+}
+
+.cpnav a {
+    text-decoration: none !important;
+    color: white !important;
+}

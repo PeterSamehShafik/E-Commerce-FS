@@ -1,0 +1,42 @@
+Assignment 4:
+Using Mysql with express
+
+<--------------(DONE)----------------->
+User schema:
+- firstName
+- lastName
+- email
+- password
+- age
+Product schema:
+- product title
+- Product desc
+- Product price
+- userId
+
+===========================================================================================
+
+
+<--------------(DONE)----------------->
+ Create user module with APIs: 
+- add user (DONE)
+- Update user  (DONE)
+- Delete user (DONE) 	
+- Get all users (DONE)
+- Get user by id (DONE)
+- Get all users with age between 20 and 40 (DONE)
+- Get all users with firstname start with(a) (DONE)
+- Get all users with firstname end with(a) (DONE)
+- Get all users with fistname start with A and age less than 30 (DONE)
+- Get all users with firstname start with (a) Or lastname start with (a)  (UNDONE)
+
+===========================================================================================
+
+Products APIs:
+- add product (DONE)
+- Update product ( only by  the product owner ) (DONE)
+- Delete product ( only by  the product owner ) (DONE)
+- Get all products( each product with its  user information ) (DONE)
+- Get product by id (DONE)
+- Get products with price greater than 2500 (DONE)
+‎الديدلاين يوم ااجمعه الساعه ١٠ بليل ان شاء الله💚

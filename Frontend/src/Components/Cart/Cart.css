@@ -1,0 +1,29 @@
+.close-btn {
+    border: none !important;
+}
+
+.game-check {
+    background-color: #d1782f;
+}
+
+.game-name {
+    transition: all 0.4s;
+    cursor: pointer;
+}
+
+.game-name:hover {
+    color: blue !important;
+}
+
+.game-check .close-btn {
+    background-color: rgb(255, 255, 255) !important;
+    transition: all 0.4s;
+}
+
+.game-check .close-btn:hover {
+    background-color: rgb(230, 191, 148) !important;
+}
+
+.cart-img {
+    width: 30% !important;
+}

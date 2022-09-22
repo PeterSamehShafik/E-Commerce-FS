@@ -1,0 +1,21 @@
+span{
+    font-size: 12px;
+    display: none;
+}
+.check{
+    display: none;
+}
+input:invalid[focused='true']{
+    box-shadow:none !important;
+    border: 1px solid red !important;
+}
+input:invalid[focused='true'] ~ span{
+    display: block;
+}
+
+input:valid[focused='true']{
+    border: 1px solid green !important;
+}
+input:valid[focused='true'] ~ .check{
+    display: block ;
+}

@@ -1,0 +1,26 @@
+.bg-cat {
+    background-color: #0e264b;
+}
+
+.fa-bag-shopping {
+    color: rgb(247, 119, 0);
+    transition: 0.01s !important;
+}
+
+.fa-bag-shopping:hover {
+    color: rgb(113, 177, 236) !important;
+}
+
+.text-orange:hover .fa-bag-shopping {
+    color: rgb(113, 177, 236) !important;
+}
+
+.nav-item.bdg{
+    overflow: visible !important;
+}
+
+.navbar-nav .badge {
+    top: 10%;
+    left: 95%;
+
+}
